@@ -17,4 +17,5 @@
 ---
 
 Lien vers Google Actions : https://console.actions.google.com
+
 Lien d'un tuto : https://devotics.fr/developpez-votre-premiere-application-nodejs-avec-le-sdk-actions-on-google/
