@@ -1,0 +1,22 @@
+{
+  "name": "poc-google-home",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Toinane/poc-google-home.git",
+  "author": "Toinane <toinane@crea-that.fr>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "online": "ngrok http 3000"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.8.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "ngrok": "^3.2.1",
+    "nodemon": "^1.19.1"
+  }
+}
