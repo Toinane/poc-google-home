@@ -15,7 +15,7 @@ module.exports = class Assistant {
     this.nbTimeAsked = 0;
     
     // On utilise l'assistant Google
-    this.agent.requestSource = this.agent.ACTIONS_ON_GOOGLE;
+    this.agent.requestSource = agent.ACTIONS_ON_GOOGLE;
   }
 
   start() {
@@ -36,8 +36,8 @@ module.exports = class Assistant {
   }
 
   // Demande l'autorisation de localiser l'utilisateur
-  geolocateUser() {
-    const conv = this.agent.conv();
+  geolocateUser(agent) {
+    const conv = agent.conv();
     conv.data.requestedPermission = 'DEVICE_PRECISE_LOCATION';
 
     // Demande la permission de localiser l'utilisateur
@@ -46,22 +46,22 @@ module.exports = class Assistant {
       permissions: conv.data.requestedPermission,
     }));
 
-    this.agent.add(conv);
+    agent.add(conv);
   }
 
   // Localise l'utilisateur
-  getUserLocation() {
-    const conv = this.agent.conv();
+  getUserLocation(agent) {
+    const conv = agent.conv();
     const requestedPermission = conv.data;
 
     if (requestedPermission !== 'DEVICE_PRECISE_LOCATION') {
-      return this.agent.add("J'ai besoin de votre autorisation pour vous localiser.");
+      return agent.add("J'ai besoin de votre autorisation pour vous localiser.");
     }
 
     // La localisation est retournée sous forme de latitude / longitude
     const coordinates = conv.device.location;
     if (!coordinates) {
-      return this.agent.add('Désolé, je ne parviens pas à vous localiser.');
+      return agent.add('Désolé, je ne parviens pas à vous localiser.');
     }
 
     conv.user.storage.location = {
@@ -69,67 +69,67 @@ module.exports = class Assistant {
       longitude: coordinates.longitude
     }
 
-    this.agent.add(conv);
-    return this.agent.add(`Vous êtes à ${coordinates.latitude}, ${coordinates.longitude}.`);
+    agent.add(conv);
+    return agent.add(`Vous êtes à ${coordinates.latitude}, ${coordinates.longitude}.`);
   }
 
   // Sauvegarde l'arrêt favori de l'utilisateur
   // Conservé indéfiniment, peut être utilisé dans chaque conversations
-  saveStation() {
-    const conv = this.agent.conv();
+  saveStation(agent) {
+    const conv = agent.conv();
 
     // On vérifie que l'utilisateur est identifié pour enregistrer son arrêt préféré
     if (conv.user.verification !== 'VERIFIED') {
-      return this.agent.add("Désolé, je ne peux pas sauvegarder votre arrêt préféré.");
+      return agent.add("Désolé, je ne peux pas sauvegarder votre arrêt préféré.");
     }
     // On vérifie que l'utilisateur à bien indiqué un arrêt
-    if (!this.agent.parameters.arret) {
-      return this.agent.add("Désolé, je n'ai pas saisi le nom de l'arrêt.");
+    if (!agent.parameters.arret) {
+      return agent.add("Désolé, je n'ai pas saisi le nom de l'arrêt.");
     }
 
-    conv.user.storage.arret = this.agent.parameters.arret;
+    conv.user.storage.arret = agent.parameters.arret;
 
-    conv.ask(`L'arrêt ${this.agent.parameters.arret} a bien été sauvegardé.`);
-    this.agent.add(conv);
+    conv.ask(`L'arrêt ${agent.parameters.arret} a bien été sauvegardé.`);
+    agent.add(conv);
   }
 
   // Renseigne l'utilisateur sur son arrêt favori
-  whatIsMyStation() {
-    const conv = this.agent.conv();
+  whatIsMyStation(agent) {
+    const conv = agent.conv();
 
     if (conv.user.storage.arret) {
-      return this.agent.add("Vous n'avez pas d'arrêt préféré.");
+      return agent.add("Vous n'avez pas d'arrêt préféré.");
     }
       
     conv.ask(`Votre arrêt préféré est ${conv.user.storage.arret}`);
-    this.agent.add(conv);
+    agent.add(conv);
   }
 
   // Supprime l'arrêt favori de l'utilisateur
-  deleteStation() {
-    const conv = this.agent.conv();
+  deleteStation(agent) {
+    const conv = agent.conv();
 
     // On vérifie si l'utilisateur a déjà indiqué un arrêt
     if (!conv.user.storage.arret) {
-      return this.agent.add("Vous n'avez pas d'arrêt préféré.");
+      return agent.add("Vous n'avez pas d'arrêt préféré.");
     }
 
     conv.user.storage.arret = {};
 
     conv.ask("Votre arrêt préféré a été supprimé.");
-    this.agent.add(conv);
+    agent.add(conv);
   }
 
   // Indique le prochain départ de tram pour les 2 directions à un arrêt particulier
-  async getWaitingTime () {
+  async getWaitingTime (agent) {
     let arret = '';
 
     // Prend l'arrêt préféré si pas d'arrêt indiqué
-    if (this.agent.conv().user.storage.arret.length) arret = this.agent.conv().user.storage.arret;
-    if (this.agent.parameters.arret) arret = this.agent.parameters.arret;
+    if (agent.conv().user.storage.arret.length) arret = agent.conv().user.storage.arret;
+    if (agent.parameters.arret) arret = agent.parameters.arret;
 
     // On a besoin d'un arrêt pour continuer.
-    if (!arret) return this.agent.add("Je n'ai pas compris le nom de l'arrêt.");
+    if (!arret) return agent.add("Je n'ai pas compris le nom de l'arrêt.");
 
     const tramStations = await this.tan.getAllTramStations();
     const nameStation = await this.tan.getSimilarStationsName(arret, tan.parseStationsToList(tramStations), 1);
@@ -139,7 +139,7 @@ module.exports = class Assistant {
     const onlyTram = details.filter(station => station.ligne.typeLigne == 1);
 
     // Pour la première version, on ne propose que les horaires pour les tramways
-    if (!onlyTram) return this.agent.add("Je n'ai aucun horaires à vous proposer.");
+    if (!onlyTram) return agent.add("Je n'ai aucun horaires à vous proposer.");
 
     let sens1 = 0;
     let sens2 = 0;
@@ -165,11 +165,11 @@ module.exports = class Assistant {
     if (nextTimes.length > 1)
       response += ` Le prochain tram de la ligne ${nextTimes[1].ligne.numLigne} passe dans ${nextTimes[1].temps} en direction de ${nextTimes[1].terminus}`;
 
-    return this.agent.add(response);
+    return agent.add(response);
   }
 
   // Recherche les arrêts de trams à proximité (dans un rayon de 500m)
-  async getCloseStations () {
+  async getCloseStations (agent) {
     // Latitude & longitude de l'IMIE. C'est temporaire
     const LATITUDE = '47,261';
     const LONGITUDE = '-1,583';
@@ -177,7 +177,7 @@ module.exports = class Assistant {
     const stations = await tan.getStationsWithLocation(LATITUDE, LONGITUDE);
 
     if (!stations) {
-      return this.agent.add("Désolé, je ne parviens pas à trouver d'arrêts.");
+      return agent.add("Désolé, je ne parviens pas à trouver d'arrêts.");
     }
 
     let nbStops = 0;
@@ -195,18 +195,18 @@ module.exports = class Assistant {
     if (nbStops > 1) resultAgent = "Les arrêts les plus proches sont " + resultAgent;
     else resultAgent = "L'arrêt le plus proche est " + resultAgent;
     
-    this.agent.add(resultAgent);
+    agent.add(resultAgent);
   }
 
   // Recherche les horaires pour un arrêt, une ligne et une direction en particulier
-  async getDetailsStations () {
+  async getDetailsStations (agent) {
     var arret = "";
 
-    if (this.agent.conv().user.storage.arret.length) arret = this.agent.conv().user.storage.arret;
-    if (this.agent.parameters.arret) arret = this.agent.parameters.arret;
+    if (agent.conv().user.storage.arret.length) arret = agent.conv().user.storage.arret;
+    if (agent.parameters.arret) arret = agent.parameters.arret;
 
     if (!arret) {
-      return this.agent.add("Je n'ai pas compris le nom de l'arrêt.");
+      return agent.add("Je n'ai pas compris le nom de l'arrêt.");
     }
 
     const tramStations = await this.tan.getAllTramStations();
@@ -225,11 +225,11 @@ module.exports = class Assistant {
     let direction = 0;
     let ligne = 0;
 
-    if (!this.agent.parameters.direction) return this.agent.add("Je n'ai pas compris la direction demandée.");
-    direction = arrayStations[this.agent.parameters.direction];
+    if (!agent.parameters.direction) return agent.add("Je n'ai pas compris la direction demandée.");
+    direction = arrayStations[agent.parameters.direction];
 
-    if (!this.agent.parameters.ligne) return this.agent.add("Je n'ai pas compris la ligne demandée.");
-    ligne = this.agent.parameters.ligne;
+    if (!agent.parameters.ligne) return agent.add("Je n'ai pas compris la ligne demandée.");
+    ligne = agent.parameters.ligne;
 
     // TODO: vérifier que l'arrêt et la direction sont pour la bonne ligne
     //checkValidDirections(direction, ligne);
@@ -244,7 +244,7 @@ module.exports = class Assistant {
     agent.add("Voici le prochain horaire de passage: " + times.prochainsHoraires[0].heure + times.prochainsHoraires[0].passages[0]);
 
     // On crée un contexte qui dure 5 tours pour garder en mémoire les prochains horaires
-    this.agent.context.set({
+    agent.context.set({
       'name': 'horaires_arret_suivant',
       'lifespan': 5,
       'parameters': {
@@ -257,7 +257,7 @@ module.exports = class Assistant {
   }
 
   // Donne les horaires suivant
-  async getDetailsNextStation () {
+  async getDetailsNextStation (agent) {
     this.nbTimesAsked++;
     var inputContext = agent.context.get('horaires_arret_suivant');
 
