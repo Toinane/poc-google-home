@@ -122,7 +122,7 @@ module.exports = class Assistant {
 
   // Indique le prochain départ de tram pour les 2 directions à un arrêt particulier
   async getWaitingTime (agent) {
-    tan = new TanWrapper();
+    let tan = new TanWrapper();
     let arret = '';
 
     // Prend l'arrêt préféré si pas d'arrêt indiqué
@@ -174,7 +174,7 @@ module.exports = class Assistant {
     // Latitude & longitude de l'IMIE. C'est temporaire
     const LATITUDE = '47,261';
     const LONGITUDE = '-1,583';
-    tan = new TanWrapper();
+    let tan = new TanWrapper();
 
     const stations = await tan.getStationsWithLocation(LATITUDE, LONGITUDE);
 
@@ -202,7 +202,7 @@ module.exports = class Assistant {
 
   // Recherche les horaires pour un arrêt, une ligne et une direction en particulier
   async getDetailsStations (agent) {
-    tan = new TanWrapper();
+    let tan = new TanWrapper();
     let arret = "";
 
     if (agent.conv().user.storage.arret && agent.conv().user.storage.arret.length) arret = agent.conv().user.storage.arret;
@@ -261,7 +261,7 @@ module.exports = class Assistant {
 
   // Donne les horaires suivant
   async getDetailsNextStation (agent) {
-    tan = new TanWrapper();
+    let tan = new TanWrapper();
     let nbTimesAsked = nbTimesAsked++ || 0;
     var inputContext = agent.context.get('horaires_arret_suivant');
 
