@@ -6,8 +6,8 @@
   "author": "Toinane <toinane@crea-that.fr>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node src/api.js",
+    "dev": "nodemon src/api.js",
     "online": "ngrok http 3000"
   },
   "dependencies": {
