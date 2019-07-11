@@ -4,6 +4,8 @@ const { WebhookClient } = require('dialogflow-fulfillment');
 const { Permission } = require('actions-on-google');
 const TanWrapper = require('api-tan-wrapper');
 
+var nbTimesAsked = 0;
+
 module.exports = class Assistant {
 
   constructor(config) {
@@ -13,7 +15,7 @@ module.exports = class Assistant {
       response: config.response
     });
     this.nbTimeAsked = 0;
-    
+
     // On utilise l'assistant Google
     this.agent.requestSource = this.agent.ACTIONS_ON_GOOGLE;
   }
@@ -31,7 +33,7 @@ module.exports = class Assistant {
     intentMap.set('arrets_a_proximite', this.getCloseStations);
     intentMap.set('horaires_arret', this.getDetailsStations);
     intentMap.set('horaires_arret_suivant', this.getDetailsNextStation);
-  
+
     this.agent.handleRequest(intentMap);
   }
 
@@ -97,10 +99,10 @@ module.exports = class Assistant {
   whatIsMyStation(agent) {
     const conv = agent.conv();
 
-    if (conv.user.storage.arret) {
+    if (!conv.user.storage.arret) {
       return agent.add("Vous n'avez pas d'arrêt préféré.");
     }
-      
+
     conv.ask(`Votre arrêt préféré est ${conv.user.storage.arret}`);
     agent.add(conv);
   }
@@ -126,7 +128,7 @@ module.exports = class Assistant {
     let arret = '';
 
     // Prend l'arrêt préféré si pas d'arrêt indiqué
-    if (agent.conv().user.storage.arret.length) arret = agent.conv().user.storage.arret;
+    if (agent.conv().user.storage.arret && agent.conv().user.storage.arret.length) arret = agent.conv().user.storage.arret;
     if (agent.parameters.arret) arret = agent.parameters.arret;
 
     // On a besoin d'un arrêt pour continuer.
@@ -162,7 +164,7 @@ module.exports = class Assistant {
 
     let response = `Voici les prochains passages pour l'arrêt ${nameStation[0].name}.`;
     response += `Le prochain tram de la ligne ${nextTimes[0].ligne.numLigne} passe dans ${nextTimes[0].temps} en direction de ${nextTimes[0].terminus}.`;
-    
+
     if (nextTimes.length > 1)
       response += ` Le prochain tram de la ligne ${nextTimes[1].ligne.numLigne} passe dans ${nextTimes[1].temps} en direction de ${nextTimes[1].terminus}`;
 
@@ -196,7 +198,7 @@ module.exports = class Assistant {
 
     if (nbStops > 1) resultAgent = "Les arrêts les plus proches sont " + resultAgent;
     else resultAgent = "L'arrêt le plus proche est " + resultAgent;
-    
+
     agent.add(resultAgent);
   }
 
@@ -239,11 +241,11 @@ module.exports = class Assistant {
     //checkValidStops(ligne, nameStation[0].name);
 
     const times = await tan.getTimesFromStation(nameStation[0].name, 'name', ligne, direction);
-    
+
     if (!times.prochainsHoraires || !times.prochainsHoraires[0].passages) {
       return agent.add("Désolé, je n'ai pas d'horaires à vous proposer.");
     }
-  
+
     agent.add("Voici le prochain horaire de passage: " + times.prochainsHoraires[0].heure + times.prochainsHoraires[0].passages[0]);
 
     // On crée un contexte qui dure 5 tours pour garder en mémoire les prochains horaires
@@ -262,7 +264,7 @@ module.exports = class Assistant {
   // Donne les horaires suivant
   async getDetailsNextStation (agent) {
     let tan = new TanWrapper();
-    let nbTimesAsked = nbTimesAsked++ || 0;
+    nbTimesAsked++;
     var inputContext = agent.context.get('horaires_arret_suivant');
 
     if (!inputContext) return agent.add("Désolé, je n'ai pas compris.");
