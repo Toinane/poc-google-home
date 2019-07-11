@@ -15,7 +15,7 @@ module.exports = class Assistant {
     this.nbTimeAsked = 0;
     
     // On utilise l'assistant Google
-    this.agent.requestSource = agent.ACTIONS_ON_GOOGLE;
+    this.agent.requestSource = this.agent.ACTIONS_ON_GOOGLE;
   }
 
   start() {
