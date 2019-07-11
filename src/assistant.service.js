@@ -122,7 +122,7 @@ module.exports = class Assistant {
 
   // Indique le prochain départ de tram pour les 2 directions à un arrêt particulier
   async getWaitingTime (agent) {
-    this.tan = new TanWrapper();
+    tan = new TanWrapper();
     let arret = '';
 
     // Prend l'arrêt préféré si pas d'arrêt indiqué
@@ -132,9 +132,9 @@ module.exports = class Assistant {
     // On a besoin d'un arrêt pour continuer.
     if (!arret) return agent.add("Je n'ai pas compris le nom de l'arrêt.");
 
-    const tramStations = await this.tan.getAllTramStations();
-    const nameStation = await this.tan.getSimilarStationsName(arret, tan.parseStationsToList(tramStations), 1);
-    const details = await this.tan.getWaitingTimeFromStation(nameStation[0].name, 'name');
+    const tramStations = await tan.getAllTramStations();
+    const nameStation = await tan.getSimilarStationsName(arret, tan.parseStationsToList(tramStations), 1);
+    const details = await tan.getWaitingTimeFromStation(nameStation[0].name, 'name');
 
     // Sélectionne seulement les tramways
     const onlyTram = details.filter(station => station.ligne.typeLigne == 1);
@@ -174,7 +174,7 @@ module.exports = class Assistant {
     // Latitude & longitude de l'IMIE. C'est temporaire
     const LATITUDE = '47,261';
     const LONGITUDE = '-1,583';
-    this.tan = new TanWrapper();
+    tan = new TanWrapper();
 
     const stations = await tan.getStationsWithLocation(LATITUDE, LONGITUDE);
 
@@ -202,7 +202,7 @@ module.exports = class Assistant {
 
   // Recherche les horaires pour un arrêt, une ligne et une direction en particulier
   async getDetailsStations (agent) {
-    this.tan = new TanWrapper();
+    tan = new TanWrapper();
     let arret = "";
 
     if (agent.conv().user.storage.arret && agent.conv().user.storage.arret.length) arret = agent.conv().user.storage.arret;
@@ -212,8 +212,8 @@ module.exports = class Assistant {
       return agent.add("Je n'ai pas compris le nom de l'arrêt.");
     }
 
-    const tramStations = await this.tan.getAllTramStations();
-    const nameStation = await tan.getSimilarStationsName(arret, this.tan.parseStationsToList(tramStations), 1);
+    const tramStations = await tan.getAllTramStations();
+    const nameStation = await tan.getSimilarStationsName(arret, tan.parseStationsToList(tramStations), 1);
     const arrayStations = { // Entité "direction"
       "Beaujoire": 2, // Terminus est ligne 1
       "Ranzay": 2, // Terminus est ligne 1
@@ -261,17 +261,17 @@ module.exports = class Assistant {
 
   // Donne les horaires suivant
   async getDetailsNextStation (agent) {
-    this.tan = new TanWrapper();
-    this.nbTimesAsked++;
+    tan = new TanWrapper();
+    let nbTimesAsked = nbTimesAsked++ || 0;
     var inputContext = agent.context.get('horaires_arret_suivant');
 
     if (!inputContext) return agent.add("Désolé, je n'ai pas compris.");
     const times = inputContext.parameters.prochainsHoraires;
 
-    if (times[this.nbTimesAsked] && times[this.nbTimesAsked].passages[this.nbTimesAsked])
-        agent.add("Voici le prochain horaire de passage: " + times[this.nbTimesAsked].heure + times[this.nbTimesAsked].passages[this.nbTimesAsked]);
+    if (times[nbTimesAsked] && times[nbTimesAsked].passages[nbTimesAsked])
+        agent.add("Voici le prochain horaire de passage: " + times[nbTimesAsked].heure + times[nbTimesAsked].passages[nbTimesAsked]);
     else {
-      this.nbTimesAsked = 0;
+      nbTimesAsked = 0;
       agent.add("Je n'ai plus d'horaires à vous proposer.");
     }
   }
