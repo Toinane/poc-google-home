@@ -1,0 +1,9 @@
+{
+  "id": "85665deb-8358-4eaf-8310-b1fca5d157da",
+  "name": "ligne",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

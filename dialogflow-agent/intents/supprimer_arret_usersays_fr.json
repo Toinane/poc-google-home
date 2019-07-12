@@ -1,0 +1,74 @@
+[
+  {
+    "id": "7c53f4d0-aab9-4e7f-85e5-68177eba7155",
+    "data": [
+      {
+        "text": "supprime arrêt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d3168058-0485-4249-b504-72c6581783b5",
+    "data": [
+      {
+        "text": "enlève mon arrêt préféré",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5c2f2240-693a-4d5a-be82-e44ac273f489",
+    "data": [
+      {
+        "text": "enlève l\u0027arrêt sauvegardé",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "218ca9a2-677f-4168-b136-49d34017cd87",
+    "data": [
+      {
+        "text": "je ne veux plus d\u0027arrêt préféré",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "699dbe37-4e53-4b83-8cce-97d7a58b498f",
+    "data": [
+      {
+        "text": "supprime mon arrêt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d53f3270-673a-4aab-807d-554348d6442f",
+    "data": [
+      {
+        "text": "je veux supprimer mon arrêt préféré",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

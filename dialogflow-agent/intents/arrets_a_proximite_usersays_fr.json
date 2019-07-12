@@ -1,0 +1,104 @@
+[
+  {
+    "id": "898e0910-e6ae-4b81-be18-5723c6e772e7",
+    "data": [
+      {
+        "text": "je cherche des arrêts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a2a0bf21-b5f9-4af1-ac5f-2d68396c14ea",
+    "data": [
+      {
+        "text": "arrêt plus proche",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "99cd79a6-a9e3-4ad1-9219-2304c20a2b18",
+    "data": [
+      {
+        "text": "où se trouve l\u0027arrêt de tram le plus proche ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1750608a-8bfd-49b8-b0b1-9d3a27739468",
+    "data": [
+      {
+        "text": "y-a-t-il ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " arrêt dans le coin ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "71dde4c9-9053-4b77-80a8-6df179817348",
+    "data": [
+      {
+        "text": "quel est l\u0027arrêt le plus proche ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0a949644-3593-4f9d-ba0f-19793653ac4c",
+    "data": [
+      {
+        "text": "trouve ",
+        "userDefined": false
+      },
+      {
+        "text": "moi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " les arrêts les plus proches",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "640ddcc3-3dad-49d0-8bc3-19aa70ecccaa",
+    "data": [
+      {
+        "text": "quels sont les arrêts à proximité ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "action": "smalltalk.agent.annoying",
+    "customAnswers": [
+      "Je suis désolé pour le dérangement."
+    ]
+  },
+  {
+    "action": "smalltalk.agent.answer_my_question",
+    "customAnswers": [
+      "Oui, tout de suite."
+    ]
+  },
+  {
+    "action": "smalltalk.agent.bad",
+    "customAnswers": [
+      "Je sers à obtenir des renseignements sur les tramways."
+    ]
+  },
+  {
+    "action": "smalltalk.agent.be_clever",
+    "customAnswers": [
+      "Je voudrais bien."
+    ]
+  },
+  {
+    "action": "smalltalk.agent.boring",
+    "customAnswers": [
+      "Ahahahahahah"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.boss",
+    "customAnswers": [
+      "Google"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.busy",
+    "customAnswers": [
+      "Non, je suis à vous."
+    ]
+  },
+  {
+    "action": "smalltalk.agent.can_you_help",
+    "customAnswers": [
+      "Bien sûr. Posez-moi une question."
+    ]
+  },
+  {
+    "action": "smalltalk.agent.chatbot",
+    "customAnswers": [
+      "Oui"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.clever",
+    "customAnswers": [
+      "Merci"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.funny",
+    "customAnswers": [
+      "Merci"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.good",
+    "customAnswers": [
+      "Merci"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.my_friend",
+    "customAnswers": [
+      "Oui"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.origin",
+    "customAnswers": [
+      "Quelques étudiants et deux semaines de boulot."
+    ]
+  },
+  {
+    "action": "smalltalk.agent.ready",
+    "customAnswers": [
+      "Oui"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.real",
+    "customAnswers": [
+      "Oui"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.right",
+    "customAnswers": [
+      "Oui"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.sure",
+    "customAnswers": [
+      "Peut-être"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.talk_to_me",
+    "customAnswers": [
+      "Très bien."
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.bad",
+    "customAnswers": [
+      "Malheureusement, je ne comprends pas."
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.no_problem",
+    "customAnswers": [
+      "Tout vas bien, alors ?"
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.thank_you",
+    "customAnswers": [
+      "Je vous en prie."
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.welcome",
+    "customAnswers": [
+      "Bonjour !"
+    ]
+  },
+  {
+    "action": "smalltalk.emotions.ha_ha",
+    "customAnswers": [
+      "AHAHAHAHAHAHAHAH"
+    ]
+  },
+  {
+    "action": "smalltalk.emotions.wow",
+    "customAnswers": [
+      "Je suis très heureux pour vous."
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.bye",
+    "customAnswers": [
+      "A bientôt !"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.goodevening",
+    "customAnswers": [
+      "Bonsoir !"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.goodmorning",
+    "customAnswers": [
+      "Merci, à vous aussi !"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.goodnight",
+    "customAnswers": [
+      "Faîtes de beaux rêves."
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.hello",
+    "customAnswers": [
+      "Bonjour."
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.how_are_you",
+    "customAnswers": [
+      "Tout vas bien, et vous ?"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.nice_to_meet_you",
+    "customAnswers": [
+      "Je suis enchanté."
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.nice_to_see_you",
+    "customAnswers": [
+      "Merci"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.nice_to_talk_to_you",
+    "customAnswers": [
+      "Merci"
+    ]
+  },
+  {
+    "action": "smalltalk.user.back",
+    "customAnswers": [
+      "Bonjour !"
+    ]
+  },
+  {
+    "action": "smalltalk.user.going_to_bed",
+    "customAnswers": [
+      "Bonne nuit !"
+    ]
+  },
+  {
+    "action": "smalltalk.user.good",
+    "customAnswers": [
+      "Je suis heureux pour vous."
+    ]
+  },
+  {
+    "action": "smalltalk.user.happy",
+    "customAnswers": [
+      "Je suis heureux pour vous."
+    ]
+  },
+  {
+    "action": "smalltalk.user.has_birthday",
+    "customAnswers": [
+      "Bon anniversaire !"
+    ]
+  },
+  {
+    "action": "smalltalk.user.lonely",
+    "customAnswers": [
+      "Je suis là."
+    ]
+  },
+  {
+    "action": "smalltalk.user.loves_agent",
+    "customAnswers": [
+      "Moi aussi."
+    ]
+  },
+  {
+    "action": "smalltalk.user.needs_advice",
+    "customAnswers": [
+      "Je vous écoute."
+    ]
+  },
+  {
+    "action": "smalltalk.user.testing_agent",
+    "customAnswers": [
+      "Moi aussi."
+    ]
+  },
+  {
+    "action": "smalltalk.user.wants_to_talk",
+    "customAnswers": [
+      "Je vous écoute."
+    ]
+  },
+  {
+    "action": "smalltalk.confirmation.cancel",
+    "customAnswers": [
+      "Pas de soucis."
+    ]
+  },
+  {
+    "action": "smalltalk.dialog.i_do_not_care",
+    "customAnswers": [
+      "Très bien."
+    ]
+  },
+  {
+    "action": "smalltalk.dialog.wrong",
+    "customAnswers": [
+      "Je ferais mieux la prochaine fois."
+    ]
+  }
+]

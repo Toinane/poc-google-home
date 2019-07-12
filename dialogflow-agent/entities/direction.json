@@ -1,0 +1,9 @@
+{
+  "id": "98968ffb-60fc-45cd-8ec5-d74d62dbfe57",
+  "name": "direction",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

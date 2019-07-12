@@ -1,0 +1,112 @@
+[
+  {
+    "id": "23e5d9bb-e548-43fd-8835-f42b0f4d83e3",
+    "data": [
+      {
+        "text": "quel est ta fonction ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "c86be816-3a47-40a2-bcbf-7733572261f2",
+    "data": [
+      {
+        "text": "a quoi tu sert ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "807befcb-3619-44a9-a59d-1eb6896919e4",
+    "data": [
+      {
+        "text": "aide-moi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "69c1e87b-342b-41ab-bae1-c186acd4e6a3",
+    "data": [
+      {
+        "text": "que pouvez-vous faire ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4771e05f-8979-41e7-bedd-c3b56d390061",
+    "data": [
+      {
+        "text": "que faites-vous ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8370f906-f9a0-42c4-b0a0-167eef02af4f",
+    "data": [
+      {
+        "text": "décrivez ",
+        "userDefined": false
+      },
+      {
+        "text": "moi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ce que vous pouvez faire",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "10bdcadf-b43e-465f-b8ad-f04cb540fe7a",
+    "data": [
+      {
+        "text": "aidez ",
+        "userDefined": false
+      },
+      {
+        "text": "moi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "34f32d24-f31c-40d2-a489-dd5e59fb7f07",
+    "data": [
+      {
+        "text": "je veux de l\u0027aide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

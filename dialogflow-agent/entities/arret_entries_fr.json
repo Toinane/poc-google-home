@@ -1,0 +1,516 @@
+[
+  {
+    "value": "50 Otages",
+    "synonyms": [
+      "50 Otages"
+    ]
+  },
+  {
+    "value": "8 Mai",
+    "synonyms": [
+      "8 Mai"
+    ]
+  },
+  {
+    "value": "Aimé Delrue",
+    "synonyms": [
+      "Aimé Delrue"
+    ]
+  },
+  {
+    "value": "Alexandre Vincent-Ste-Thérèse",
+    "synonyms": [
+      "Alexandre Vincent-Ste-Thérèse"
+    ]
+  },
+  {
+    "value": "Balinière",
+    "synonyms": [
+      "Balinière"
+    ]
+  },
+  {
+    "value": "Bd de Doulon",
+    "synonyms": [
+      "Bd de Doulon",
+      "boulevard de Doulon"
+    ]
+  },
+  {
+    "value": "Beaujoire",
+    "synonyms": [
+      "Beaujoire"
+    ]
+  },
+  {
+    "value": "Beauséjour",
+    "synonyms": [
+      "Beauséjour"
+    ]
+  },
+  {
+    "value": "Bignon",
+    "synonyms": [
+      "Bignon"
+    ]
+  },
+  {
+    "value": "Boissière",
+    "synonyms": [
+      "Boissière"
+    ]
+  },
+  {
+    "value": "Bouffay",
+    "synonyms": [
+      "Bouffay"
+    ]
+  },
+  {
+    "value": "Bourgeonnière",
+    "synonyms": [
+      "Bourgeonnière"
+    ]
+  },
+  {
+    "value": "Bretagne",
+    "synonyms": [
+      "Bretagne",
+      "tour de bretagne"
+    ]
+  },
+  {
+    "value": "Chantiers Navals",
+    "synonyms": [
+      "Chantiers Navals"
+    ]
+  },
+  {
+    "value": "Château de Rezé",
+    "synonyms": [
+      "Château de Rezé"
+    ]
+  },
+  {
+    "value": "Chêne des Anglais",
+    "synonyms": [
+      "Chêne des Anglais"
+    ]
+  },
+  {
+    "value": "Commerce",
+    "synonyms": [
+      "Commerce",
+      "place du commerce"
+    ]
+  },
+  {
+    "value": "Croix Bonneau",
+    "synonyms": [
+      "Croix Bonneau"
+    ]
+  },
+  {
+    "value": "Du Chaffault",
+    "synonyms": [
+      "Du Chaffault"
+    ]
+  },
+  {
+    "value": "Duchesse Anne-Château",
+    "synonyms": [
+      "Duchesse Anne-Château",
+      "château",
+      "duchesse Anne"
+    ]
+  },
+  {
+    "value": "Ecole Centrale-Audencia",
+    "synonyms": [
+      "Ecole Centrale-Audencia",
+      "Ecole centrale"
+    ]
+  },
+  {
+    "value": "Espace Diderot",
+    "synonyms": [
+      "Espace Diderot"
+    ]
+  },
+  {
+    "value": "Facultés",
+    "synonyms": [
+      "Facultés",
+      "fac"
+    ]
+  },
+  {
+    "value": "Ferrière",
+    "synonyms": [
+      "Ferrière"
+    ]
+  },
+  {
+    "value": "Frachon",
+    "synonyms": [
+      "Frachon"
+    ]
+  },
+  {
+    "value": "François Mitterrand",
+    "synonyms": [
+      "François Mitterrand"
+    ]
+  },
+  {
+    "value": "Félix Faure",
+    "synonyms": [
+      "Félix Faure"
+    ]
+  },
+  {
+    "value": "Gare Maritime",
+    "synonyms": [
+      "Gare Maritime"
+    ]
+  },
+  {
+    "value": "Gare Nord",
+    "synonyms": [
+      "Gare Nord",
+      "la gare"
+    ]
+  },
+  {
+    "value": "Gare de Pont Rousseau",
+    "synonyms": [
+      "Gare de Pont Rousseau",
+      "pont rousseau"
+    ]
+  },
+  {
+    "value": "Grande Ouche",
+    "synonyms": [
+      "Grande Ouche"
+    ]
+  },
+  {
+    "value": "Haluchère - Batignolles",
+    "synonyms": [
+      "Haluchère - Batignolles"
+    ]
+  },
+  {
+    "value": "Halvêque",
+    "synonyms": [
+      "Halvêque"
+    ]
+  },
+  {
+    "value": "Hôpital Bellier",
+    "synonyms": [
+      "Hôpital Bellier"
+    ]
+  },
+  {
+    "value": "Hôtel Dieu",
+    "synonyms": [
+      "Hôtel Dieu"
+    ]
+  },
+  {
+    "value": "Jamet",
+    "synonyms": [
+      "Jamet"
+    ]
+  },
+  {
+    "value": "Jean Jaurès",
+    "synonyms": [
+      "Jean Jaurès"
+    ]
+  },
+  {
+    "value": "Jean Moulin",
+    "synonyms": [
+      "Jean Moulin"
+    ]
+  },
+  {
+    "value": "Jean Rostand",
+    "synonyms": [
+      "Jean Rostand"
+    ]
+  },
+  {
+    "value": "Landreau",
+    "synonyms": [
+      "Landreau"
+    ]
+  },
+  {
+    "value": "Lauriers",
+    "synonyms": [
+      "Lauriers"
+    ]
+  },
+  {
+    "value": "Le Cardo",
+    "synonyms": [
+      "Le Cardo",
+      "cardo"
+    ]
+  },
+  {
+    "value": "Les Couëts",
+    "synonyms": [
+      "Les Couëts"
+    ]
+  },
+  {
+    "value": "Longchamp",
+    "synonyms": [
+      "Longchamp"
+    ]
+  },
+  {
+    "value": "Mairie de Doulon",
+    "synonyms": [
+      "Mairie de Doulon",
+      "doulon"
+    ]
+  },
+  {
+    "value": "Mangin",
+    "synonyms": [
+      "Mangin"
+    ]
+  },
+  {
+    "value": "Manufacture",
+    "synonyms": [
+      "Manufacture"
+    ]
+  },
+  {
+    "value": "Marcel Paul",
+    "synonyms": [
+      "Marcel Paul"
+    ]
+  },
+  {
+    "value": "Mendès France - Bellevue",
+    "synonyms": [
+      "Mendès France - Bellevue",
+      "bellevue"
+    ]
+  },
+  {
+    "value": "Michelet",
+    "synonyms": [
+      "Michelet"
+    ]
+  },
+  {
+    "value": "Morrhonnière - Petit Port",
+    "synonyms": [
+      "Morrhonnière - Petit Port",
+      "petit port"
+    ]
+  },
+  {
+    "value": "Motte Rouge",
+    "synonyms": [
+      "Motte Rouge"
+    ]
+  },
+  {
+    "value": "Moutonnerie",
+    "synonyms": [
+      "Moutonnerie"
+    ]
+  },
+  {
+    "value": "Médiathèque",
+    "synonyms": [
+      "Médiathèque"
+    ]
+  },
+  {
+    "value": "Neruda",
+    "synonyms": [
+      "Neruda"
+    ]
+  },
+  {
+    "value": "Neustrie",
+    "synonyms": [
+      "Neustrie"
+    ]
+  },
+  {
+    "value": "Orvault-Grand Val",
+    "synonyms": [
+      "Orvault-Grand Val",
+      "grand-val"
+    ]
+  },
+  {
+    "value": "Orvault-Morlière",
+    "synonyms": [
+      "Orvault-Morlière"
+    ]
+  },
+  {
+    "value": "Pin Sec",
+    "synonyms": [
+      "Pin Sec"
+    ]
+  },
+  {
+    "value": "Pirmil",
+    "synonyms": [
+      "Pirmil"
+    ]
+  },
+  {
+    "value": "Place du Cirque",
+    "synonyms": [
+      "Place du Cirque"
+    ]
+  },
+  {
+    "value": "Plaisance",
+    "synonyms": [
+      "Plaisance"
+    ]
+  },
+  {
+    "value": "Poitou",
+    "synonyms": [
+      "Poitou"
+    ]
+  },
+  {
+    "value": "Pont Rousseau Martyrs",
+    "synonyms": [
+      "Pont Rousseau Martyrs",
+      "pont rousseau"
+    ]
+  },
+  {
+    "value": "Ranzay",
+    "synonyms": [
+      "Ranzay"
+    ]
+  },
+  {
+    "value": "Recteur Schmitt",
+    "synonyms": [
+      "Recteur Schmitt"
+    ]
+  },
+  {
+    "value": "René Cassin",
+    "synonyms": [
+      "René Cassin"
+    ]
+  },
+  {
+    "value": "Romain Rolland",
+    "synonyms": [
+      "Romain Rolland"
+    ]
+  },
+  {
+    "value": "Romanet",
+    "synonyms": [
+      "Romanet"
+    ]
+  },
+  {
+    "value": "Rond-Point de Vannes",
+    "synonyms": [
+      "Rond-Point de Vannes"
+    ]
+  },
+  {
+    "value": "Santos Dumont",
+    "synonyms": [
+      "Santos Dumont"
+    ]
+  },
+  {
+    "value": "Schoelcher",
+    "synonyms": [
+      "Schoelcher"
+    ]
+  },
+  {
+    "value": "Sillon de Bretagne",
+    "synonyms": [
+      "Sillon de Bretagne"
+    ]
+  },
+  {
+    "value": "Souillarderie",
+    "synonyms": [
+      "Souillarderie"
+    ]
+  },
+  {
+    "value": "St-Félix",
+    "synonyms": [
+      "St-Félix"
+    ]
+  },
+  {
+    "value": "St-Mihiel",
+    "synonyms": [
+      "St-Mihiel"
+    ]
+  },
+  {
+    "value": "Tertre",
+    "synonyms": [
+      "Tertre"
+    ]
+  },
+  {
+    "value": "Tourmaline",
+    "synonyms": [
+      "Tourmaline"
+    ]
+  },
+  {
+    "value": "Trocardière",
+    "synonyms": [
+      "Trocardière"
+    ]
+  },
+  {
+    "value": "Viarme -Talensac",
+    "synonyms": [
+      "Viarme -Talensac",
+      "talensac"
+    ]
+  },
+  {
+    "value": "Vincent Gâche",
+    "synonyms": [
+      "Vincent Gâche"
+    ]
+  },
+  {
+    "value": "Wattignies",
+    "synonyms": [
+      "Wattignies"
+    ]
+  },
+  {
+    "value": "Égalité",
+    "synonyms": [
+      "Égalité"
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "id": "52077ddd-59d8-4f83-ba93-c74802baa55a",
+  "name": "aide",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": [
+            "Vous pouvez consulter les horaires à un arrêt, demander le prochain passage à un arrêt ou demander où se situent les arrêts les plus proches.",
+            "Vous pouvez sauvegarder votre arrêt préféré et le supprimer, ainsi que me le demander à n\u0027importe quel moment.",
+            "J\u0027utilise votre arrêt préféré si je ne parviens pas à comprendre l\u0027arrêt demandé."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

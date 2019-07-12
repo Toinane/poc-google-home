@@ -1,0 +1,9 @@
+{
+  "id": "cc01a88f-ecd6-4c7f-a0ce-3d5d97589130",
+  "name": "arret",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

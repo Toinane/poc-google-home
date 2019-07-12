@@ -1,0 +1,95 @@
+[
+  {
+    "id": "735a3260-8a9a-4369-9132-a11b45cd7645",
+    "data": [
+      {
+        "text": "je veux être géolocalisé",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc201ffa-145c-4832-a930-2b2aadd8a288",
+    "data": [
+      {
+        "text": "où-suis-je ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "810167e1-db3a-46a4-b738-57c9f4445c4e",
+    "data": [
+      {
+        "text": "donne ",
+        "userDefined": false
+      },
+      {
+        "text": "moi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ma position",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5981505f-175b-47f9-b109-5754f1edcec9",
+    "data": [
+      {
+        "text": "cherche où je me situe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ef982f9f-d71f-42fe-9e00-69ba02b4311b",
+    "data": [
+      {
+        "text": "trouve ma position",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f6b7400a-ccc6-4351-b0c0-04695961dff5",
+    "data": [
+      {
+        "text": "localise-moi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e7747c6-3448-41f1-b0a1-b707386d306b",
+    "data": [
+      {
+        "text": "je veux être localisé",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

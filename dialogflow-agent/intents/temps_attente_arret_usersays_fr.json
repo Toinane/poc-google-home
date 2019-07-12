@@ -1,0 +1,108 @@
+[
+  {
+    "id": "738d2eb2-0b1b-4cde-b0e9-c1d29a3c4932",
+    "data": [
+      {
+        "text": "prochain tram à la ",
+        "userDefined": false
+      },
+      {
+        "text": "mairie de Doulon",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "789204ef-8e07-42e5-8923-9f3650d57fa3",
+    "data": [
+      {
+        "text": "quand arrive le prochain tramway à l\u0027arrêt ",
+        "userDefined": false
+      },
+      {
+        "text": "Beauséjour",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "352608b6-cd25-4bd1-86d8-d27140ed259f",
+    "data": [
+      {
+        "text": "quand passe le prochain tram au ",
+        "userDefined": false
+      },
+      {
+        "text": "cardo",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d1658e82-95a4-47b1-b758-699f0952133a",
+    "data": [
+      {
+        "text": "quel est le prochain horaire de passage à ",
+        "userDefined": false
+      },
+      {
+        "text": "Commerce",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "43e7d5fc-17da-4aab-a5f5-73f630365e36",
+    "data": [
+      {
+        "text": "dans combien de temps le prochain tram arrive-t-il à la ",
+        "userDefined": false
+      },
+      {
+        "text": "mairie de doulon",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

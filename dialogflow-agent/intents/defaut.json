@@ -1,0 +1,32 @@
+{
+  "id": "552e6df8-7c73-49b4-81d4-4b8693f89730",
+  "name": "defaut",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": [
+            "Je n\u0027ai pas compris votre requête.",
+            "Désolé, je n\u0027ai pas saisi.",
+            "Je ne comprends pas."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

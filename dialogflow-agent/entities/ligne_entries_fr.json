@@ -1,0 +1,26 @@
+[
+  {
+    "value": "1",
+    "synonyms": [
+      "la 1",
+      "ligne 1",
+      "tram 1"
+    ]
+  },
+  {
+    "value": "2",
+    "synonyms": [
+      "la 2",
+      "ligne 2",
+      "tram 2"
+    ]
+  },
+  {
+    "value": "3",
+    "synonyms": [
+      "la 3",
+      "ligne 3",
+      "tram 3"
+    ]
+  }
+]

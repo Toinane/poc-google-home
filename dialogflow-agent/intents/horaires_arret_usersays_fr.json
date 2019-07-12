@@ -1,0 +1,361 @@
+[
+  {
+    "id": "7ab6e7fa-d785-4d3a-9077-1b6b246d7924",
+    "data": [
+      {
+        "text": "je veux les horaires de la ",
+        "userDefined": false
+      },
+      {
+        "text": "ligne 3",
+        "alias": "ligne",
+        "meta": "@ligne",
+        "userDefined": true
+      },
+      {
+        "text": " à l\u0027arrêt ",
+        "userDefined": false
+      },
+      {
+        "text": "Commerce",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": true
+      },
+      {
+        "text": " direction ",
+        "userDefined": false
+      },
+      {
+        "text": "orvault",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a16e6b92-da89-405c-bb86-363b278d6237",
+    "data": [
+      {
+        "text": "quels sont les horaires pour ",
+        "userDefined": false
+      },
+      {
+        "text": "Jamet",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": false
+      },
+      {
+        "text": " sur la ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "ligne",
+        "meta": "@ligne",
+        "userDefined": false
+      },
+      {
+        "text": " direction ",
+        "userDefined": false
+      },
+      {
+        "text": "Jamet",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9fa660bc-b710-4da1-be4d-068cd2dec6b7",
+    "data": [
+      {
+        "text": "je souhaite consulter les horaires pour l\u0027arrêt ",
+        "userDefined": false
+      },
+      {
+        "text": "Médiathèque",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": false
+      },
+      {
+        "text": " de la ",
+        "userDefined": false
+      },
+      {
+        "text": "ligne 1",
+        "alias": "ligne",
+        "meta": "@ligne",
+        "userDefined": false
+      },
+      {
+        "text": " en direction de ",
+        "userDefined": false
+      },
+      {
+        "text": "ranzay",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6dbc74ab-73d2-4b0a-bba1-c1df01a54331",
+    "data": [
+      {
+        "text": "donne ",
+        "userDefined": false
+      },
+      {
+        "text": "moi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " les horaires de la ",
+        "userDefined": false
+      },
+      {
+        "text": "place du cirque",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "direction grand-val",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": true
+      },
+      {
+        "text": " pour la ",
+        "userDefined": false
+      },
+      {
+        "text": "ligne 3",
+        "alias": "ligne",
+        "meta": "@ligne",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fcb51473-8756-4518-acdc-257769c46faa",
+    "data": [
+      {
+        "text": "je veux les horaires à ",
+        "userDefined": false
+      },
+      {
+        "text": "Hôtel Dieu",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": false
+      },
+      {
+        "text": " pour la ",
+        "userDefined": false
+      },
+      {
+        "text": "ligne 3",
+        "alias": "ligne",
+        "meta": "@ligne",
+        "userDefined": false
+      },
+      {
+        "text": " direction ",
+        "userDefined": false
+      },
+      {
+        "text": "Neustrie",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d5b675ba-8fea-4690-9853-0211d0108ea9",
+    "data": [
+      {
+        "text": "horaires ",
+        "userDefined": false
+      },
+      {
+        "text": "Chantiers Navals",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ligne 1",
+        "alias": "ligne",
+        "meta": "@ligne",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Beaujoire",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f7356fc-dfaa-427d-9ca1-03ae4f84b0a8",
+    "data": [
+      {
+        "text": "je veux savoir les horaires au ",
+        "userDefined": false
+      },
+      {
+        "text": "cardo",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": true
+      },
+      {
+        "text": " pour ",
+        "userDefined": false
+      },
+      {
+        "text": "la 2",
+        "alias": "ligne",
+        "meta": "@ligne",
+        "userDefined": true
+      },
+      {
+        "text": " en direction de ",
+        "userDefined": false
+      },
+      {
+        "text": "Pont rousseau",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "66105d3c-f84b-4d44-9bd6-d97f2d159938",
+    "data": [
+      {
+        "text": "je souhaite connaître les horaires à l\u0027arrêt ",
+        "userDefined": false
+      },
+      {
+        "text": "Hôtel Dieu",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": true
+      },
+      {
+        "text": " pour la ",
+        "userDefined": false
+      },
+      {
+        "text": "ligne 3",
+        "alias": "ligne",
+        "meta": "@ligne",
+        "userDefined": true
+      },
+      {
+        "text": " en direction de ",
+        "userDefined": false
+      },
+      {
+        "text": "Ranzet",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9238b6fa-7d58-4d6f-9afa-80cd462d54fa",
+    "data": [
+      {
+        "text": "quels sont les horaires à l\u0027arrêt ",
+        "userDefined": false
+      },
+      {
+        "text": "Orvault-Morlière",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": true
+      },
+      {
+        "text": " pour ",
+        "userDefined": false
+      },
+      {
+        "text": "la 2",
+        "alias": "ligne",
+        "meta": "@ligne",
+        "userDefined": true
+      },
+      {
+        "text": " si je part en direction de ",
+        "userDefined": false
+      },
+      {
+        "text": "Grand-Val",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

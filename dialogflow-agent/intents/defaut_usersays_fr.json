@@ -1,0 +1,38 @@
+[
+  {
+    "id": "42f80750-d712-4c3f-8747-32fcb94ee609",
+    "data": [
+      {
+        "text": "aide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "feaaebe6-5ef9-4683-8571-42624ef042a0",
+    "data": [
+      {
+        "text": "annuler",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c6388700-5160-4a13-9eea-d42060031398",
+    "data": [
+      {
+        "text": "bonjour",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

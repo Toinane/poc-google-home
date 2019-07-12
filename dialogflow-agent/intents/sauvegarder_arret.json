@@ -1,0 +1,39 @@
+{
+  "id": "d9d67177-e384-4a10-b164-f99a5bb907d1",
+  "name": "sauvegarder_arret",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "99c780c4-cb5b-415f-b7a2-fac89d236576",
+          "required": false,
+          "dataType": "@arret",
+          "name": "arret",
+          "value": "$arret",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

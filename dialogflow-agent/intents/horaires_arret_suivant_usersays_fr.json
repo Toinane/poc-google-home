@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ae29b0e6-efc0-4030-a776-3bc9242774a8",
+    "data": [
+      {
+        "text": "je veux ceux d\u0027après",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "62d5f258-a642-4f7d-a018-3094889084d7",
+    "data": [
+      {
+        "text": "horaires suivants",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fe5fed68-3a25-407c-b911-41a5c34c3aca",
+    "data": [
+      {
+        "text": "lis-moi les résultats suivants",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f69d25eb-ec76-4d45-b1a5-e5e985a83525",
+    "data": [
+      {
+        "text": "continue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "33558ef6-4d05-41fd-afa4-033388df6e1c",
+    "data": [
+      {
+        "text": "montre-moi les résultats suivants",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f33aa556-858b-47ea-bdef-59c52dc54277",
+    "data": [
+      {
+        "text": "résultat suivant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e59b6a6d-6a6e-49a0-8885-c95d66f9af04",
+    "data": [
+      {
+        "text": "passe au suivant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5990bb94-b344-4639-b0fa-efb8547e525e",
+    "data": [
+      {
+        "text": "suivant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

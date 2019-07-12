@@ -1,0 +1,125 @@
+[
+  {
+    "id": "383c9fde-7b60-465c-a18f-424d155f1ede",
+    "data": [
+      {
+        "text": "sauvegarde l\u0027arrêt ",
+        "userDefined": false
+      },
+      {
+        "text": "Beaujoire",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "075156b7-8aab-4af3-bfb5-e128286b0265",
+    "data": [
+      {
+        "text": "enregistre mon arrêt privilégié",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6387860c-29b7-4601-8110-bd6001dbb022",
+    "data": [
+      {
+        "text": "j\u0027ai ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " arrêt préféré",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "43e3a37f-6c1a-438f-95f4-a4bdd2d468a8",
+    "data": [
+      {
+        "text": "mon arrêt préféré est ",
+        "userDefined": false
+      },
+      {
+        "text": "le cardo",
+        "alias": "arret",
+        "meta": "@arret",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "51a26269-dcb2-45c0-9d83-f6712feaf271",
+    "data": [
+      {
+        "text": "sauvegarde arrêt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0ae5ea4f-1bb4-4030-a433-cd182cf0c0e3",
+    "data": [
+      {
+        "text": "je veux sauvegarder ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " arrêt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "04e0441d-2bbc-4e05-9765-baf33fe793c2",
+    "data": [
+      {
+        "text": "je veux enregistrer ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " arrêt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "d3d14094-e210-4f4c-8dc8-3790ba714cca",
+    "data": [
+      {
+        "text": "C\u0027est terminé",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b011ed12-1722-4c9a-a226-8ba5eaff431d",
+    "data": [
+      {
+        "text": "Annuler",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b347038f-da23-4c58-984d-5df82e752b91",
+    "data": [
+      {
+        "text": "Arrête",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "094be194-1d92-448c-8bae-af71750763ff",
+    "data": [
+      {
+        "text": "Je ne souhaite pas continuer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b934f640-f625-4c7d-9264-be66b34f6fbe",
+    "data": [
+      {
+        "text": "Stop",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a0050362-16bf-41e0-ba71-f48763efcec5",
+    "data": [
+      {
+        "text": "Annule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

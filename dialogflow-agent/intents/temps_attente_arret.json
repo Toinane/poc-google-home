@@ -1,0 +1,46 @@
+{
+  "id": "b28c8687-d498-4521-aa9f-c06444bbf8fb",
+  "name": "temps_attente_arret",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "choix_arret.choix_arret-more",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "860462c6-262b-47ca-8d5a-8205268f23b9",
+          "required": false,
+          "dataType": "@arret",
+          "name": "arret",
+          "value": "$arret",
+          "prompts": [
+            {
+              "lang": "fr",
+              "value": "Je n\u0027ai pas compris l\u0027arrêt spécifié."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "b7d3c48a-5176-43e6-a563-b9458d43d877",
+    "data": [
+      {
+        "text": "donne ",
+        "userDefined": false
+      },
+      {
+        "text": "moi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " l\u0027arrêt enregistré",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a3ae49cd-b6da-464d-9145-29eb231b7cc4",
+    "data": [
+      {
+        "text": "quel est mon arret enregistré ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b588e0a8-3672-4e15-b7ec-a9629bf3f39c",
+    "data": [
+      {
+        "text": "quel est mon arret préféré ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8ff0ba68-99b8-4420-a629-a8cd881e1f80",
+    "data": [
+      {
+        "text": "quel est mon arret favori ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a3a83d91-4684-44f5-b847-6de8ed3a2912",
+    "data": [
+      {
+        "text": "arret favori",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "804992a9-627c-4215-bccf-9c06ddfa2cdf",
+    "data": [
+      {
+        "text": "je veux connaître mon arrêt préféré",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
