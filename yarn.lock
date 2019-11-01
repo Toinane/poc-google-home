@@ -669,12 +669,13 @@ detect-libc@^1.0.2:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
   integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
 
-dialogflow-fulfillment@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/dialogflow-fulfillment/-/dialogflow-fulfillment-0.5.0.tgz#0b812767234afaa357db6b037d6217cc9d37c43c"
-  integrity sha512-rmj6jApYGA8177iYKaaCupAYdFHMY6W0Vc+t2rr668TP5h8EiS1MYkBtwnP8nRR8QB1DA0vYE7AEn++EskBVJQ==
+dialogflow-fulfillment@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/dialogflow-fulfillment/-/dialogflow-fulfillment-0.6.1.tgz#1950e3fea82e2f815967a18173b5edaaff23d582"
+  integrity sha512-lBnjPyXmO0P3grJfNBPTbVX1J3GVCBE1KZ+dEskbsH1O6DVXvFR/ncYroE85dfqGII7xUukfSjtqd084HT3W+w==
   dependencies:
     debug "^3.1.0"
+    lodash "^4.17.11"
 
 dot-prop@^4.1.0:
   version "4.2.0"
@@ -1537,9 +1538,9 @@ lodash.isstring@^4.0.1:
   integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
 
 lodash@^4.17.11:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 lowercase-keys@^1.0.0:
   version "1.0.1"
