@@ -10,19 +10,18 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.json({ api: 'ok' });
+    res.json({ api: 'ok' });
 });
 
 app.post('/', async (req, res) => {
-  try {
-    const assistant = new Assistant({ request: req, response: res });
+    try {
+        const assistant = new Assistant({ request: req, response: res });
 
-    assistant.start();
-  }
-  catch(error) {
-    console.log(error);
-    res.status(500).json({ error: 'Oops, something went wrong..' });
-  }
+        assistant.start();
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ error: 'Oops, something went wrong..' });
+    }
 });
 
 console.log('API launched on port', port);
